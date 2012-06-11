@@ -1,194 +1,199 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		
-		<title>Pollenware on Github</title>
-		<meta name="generator" content="JsDoc Toolkit" />
-		
-		<style type="text/css">
-		/* default.css */
-body
-{
-	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
-	width: 800px;
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+*{margin:0;padding:0;}
+body {
+	font:13.34px helvetica,arial,freesans,clean,sans-serif;
+	color:black;
+	line-height:1.4em;
+	background-color: #F8F8F8;
+	padding: 0.7em;
 }
-
-.header
-{
-	clear: both;
-	background-color: #ccc;
-	padding: 8px;
+p {
+	margin:1em 0;
+	line-height:1.5em;
 }
-
-h1
-{
-	font-size: 150%;
-	font-weight: bold;
-	padding: 0;
-	margin: 1em 0 0 .3em;
+table {
+	font-size:inherit;
+	font:100%;
+	margin:1em;
 }
-
-hr
-{
-	border: none 0;
-	border-top: 1px solid #7F8FB1;
-	height: 1px;
+table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif;}
+select,option{padding:0 .25em;}
+optgroup{margin-top:.5em;}
+pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+pre {
+	margin:1em 0;
+	font-size:12px;
+	background-color:#eee;
+	border:1px solid #ddd;
+	padding:5px;
+	line-height:1.5em;
+	color:#444;
+	overflow:auto;
+	-webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;border-radius:3px;
 }
-
-pre.code
-{
-	display: block;
-	padding: 8px;
-	border: 1px dashed #ccc;
+pre code {
+	padding:0;
+	font-size:12px;
+	background-color:#eee;
+	border:none;
 }
-
-#index
-{
-	margin-top: 24px;
-	float: left;
-	width: 160px;
-	position: absolute;
-	left: 8px;
-	background-color: #F3F3F3;
-	padding: 8px;
+code {
+	font-size:12px;
+	background-color:#f8f8ff;
+	color:#444;
+	padding:0 .2em;
+	border:1px solid #dedede;
 }
-
-#content
-{
-	margin-left: 190px;
-	width: 600px;
+img{border:0;max-width:100%;}
+abbr{border-bottom:none;}
+a{color:#4183c4;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a code,a:link code,a:visited code{color:#4183c4;}
+h2,h3{margin:1em 0;}
+h1,h2,h3,h4,h5,h6{border:0;}
+h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;}
+h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+h3{margin-top:1em;}
+hr{border:1px solid #ddd;}
+ul{margin:1em 0 1em 2em;}
+ol{margin:1em 0 1em 2em;}
+ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
+ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
+blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+dt{font-weight:bold;margin-left:1em;}
+dd{margin-left:2em;margin-bottom:1em;}
+@media screen and (min-width: 768px) {
+    body {
+        width: 748px;
+        margin:10px auto;
+    }
 }
+</style>
+<title>Pollenware Projects</title>
+</head>
+<body>
+<h1>Pollenware Projects</h1>
 
-.classList
-{
-	list-style-type: none;
-	padding: 0;
-	margin: 0 0 0 8px;
-	font-family: arial, sans-serif;
-	font-size: 1em;
-	overflow: auto;
-}
+<h2>comb</h2>
 
-.classList li
-{
-	padding: 0;
-	margin: 0 0 8px 0;
-}
+<ul>
+<li><a href="https://github.com/Pollenware/comb">Git Repo</a></li>
+<li><a href="/comb/index.html">Documentation</a></li>
+</ul>
 
-.summaryTable { width: 100%; }
 
-h1.classTitle
-{
-	font-size:170%;
-	line-height:130%;
-}
+<p>Framework for node that provides a one stop shop for frequently needed utilities, including:</p>
 
-h2 { font-size: 110%; }
-caption, div.sectionTitle
-{
-	background-color: #7F8FB1;
-	color: #fff;
-	font-size:130%;
-	text-align: left;
-	padding: 2px 6px 2px 6px;
-	border: 1px #7F8FB1 solid;
-}
+<ul>
+<li>OO utilties</li>
+<li>Collections</li>
+<li>Logging</li>
+<li>String &amp; date formatting</li>
+<li>Flow control</li>
+<li>Date Management</li>
+</ul>
 
-div.sectionTitle { margin-bottom: 8px; }
-.summaryTable thead { display: none; }
 
-.summaryTable td
-{
-	vertical-align: top;
-	padding: 4px;
-	border-bottom: 1px #7F8FB1 solid;
-	border-right: 1px #7F8FB1 solid;
-}
+<p>See Usage for more details.</p>
 
-/*col#summaryAttributes {}*/
-.summaryTable td.attributes
-{
-	border-left: 1px #7F8FB1 solid;
-	width: 140px;
-	text-align: right;
-}
+<h4>Installation</h4>
 
-td.attributes, .fixedFont
-{
-	line-height: 15px;
-	color: #002EBE;
-	font-family: "Courier New",Courier,monospace;
-	font-size: 13px;
-}
+<pre><code>npm install comb
+</code></pre>
 
-.summaryTable td.nameDescription
-{
-	text-align: left;
-	font-size: 13px;
-	line-height: 15px;
-}
+<h4>Extensions</h4>
 
-.summaryTable td.nameDescription, .description
-{
-	line-height: 15px;
-	padding: 4px;
-	padding-left: 4px;
-}
+<ul>
+<li><p>comb-proxy : helpers for working with <a href="http://wiki.ecmascript.org/doku.php?id=harmony:proxies">harmony proxies</a></p>
 
-.summaryTable { margin-bottom: 8px; }
+<pre><code>npm install comb-proxy
+</code></pre></li>
+</ul>
 
-ul.inheritsList
-{
-	list-style: square;
-	margin-left: 20px;
-	padding-left: 0;
-}
 
-.detailList {
-	margin-left: 20px; 
-	line-height: 15px;
-}
-.detailList dt { margin-left: 20px; }
+<h2>patio</h2>
 
-.detailList .heading
-{
-	font-weight: bold;
-	padding-bottom: 6px;
-	margin-left: 0;
-}
+<ul>
+<li><a href="https://github.com/Pollenware/patio">Git Repo</a></li>
+<li><a href="/patio/index.html">Documentation</a></li>
+</ul>
 
-.light, td.attributes, .light a:link, .light a:visited
-{
-	color: #777;
-	font-style: italic;
-}
 
-.fineprint
-{
-	text-align: right;
-	font-size: 10px;
-}
-		</style>
-	</head>
-	
-	<body>
-		
-  <div id="content">
-    <h2>Pollenware Utilities</h2>  
-  <ul>
-    <li><strong>comb</strong> - A framework for Node <a href="/comb/index.html">jsdoc</a> - <a href="https://github.com/Pollenware/comb">repo</a></li>
-    <li><strong>patio</strong> - A <a href="http://sequel.rubyforge.org/">Sequel</a> ORM inspired for Node <a href="/patio/index.html">jsdoc</a> - <a href="https://github.com/Pollenware/patio">repo</a></li>
-    <li><strong>nools</strong> - Rules engine for Node - <a href="/nools">site</a></li>
-    <li><strong>hive</strong> - Caching for Node     <a href="/hive/index.html">jsdoc</a> - <a href="https://github.com/Pollenware/hive">repo</a></li>
-    <li><strong>js-jango</strong> - Node implementation of the <a href="http://api.jangomail.com/">JangoMail API</a> - <a href="/js-jango/index.html">jsdoc</a> - <a href="https://github.com/Pollenware/js-jango">repo</a></li>
-    <li><strong>moose(<i>deprecated</i>)</strong> - An <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a> to work with Node <a href="/moose/index.html">jsdoc</a> - <a href="https://github.com/Pollenware/moose">repo</a></li>
-    <li><strong>ocap-shell</strong> - cli for Optimized Collaborative Auction Platform - <a href="https://github.com/Pollenware/ocap-shell">repo</a></li>
-  </ul>
-  <span>This content is released under the <a href="https://github.com/Pollenware/moose/raw/master/LICENSE">MIT License</a></span>
-  <hr />
-  <a href="http://github.com/Pollenware">github</a> - <a href="http://pollenware.com">website</a> - <a href="http://twitter.com/pollenware">twitter</a> - <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2000+Shawnee+Mission+Parkway,+Mission,+KS&aq=0&sll=37.0625,-95.677068&sspn=40.953203,83.935547&ie=UTF8&hq=&hnear=2000+Shawnee+Mission+Pkwy,+Mission,+Kansas+66205&z=16&iwloc=A">map</a> - <a href="http://vimeo.com/16589684">video</a> - 877.465.4045 -  Copyright &copy; 2011 Pollen, Inc.
-  </div>  
-	</body>
+<p>Patio is a <a href="http://sequel.rubyforge.org/" title=" target=&quot;patioapi">Sequel</a> inspired query engine and <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a>.</p>
+
+<h4>Installation</h4>
+
+<p>While it is not mandatory it is recommened that you install comb first, as it will make working with the comb API easier.</p>
+
+<pre><code>npm install comb patio
+</code></pre>
+
+<p>To use the patio executable for migrations</p>
+
+<pre><code>npm install -g patio  
+</code></pre>
+
+<h2>nools</h2>
+
+<ul>
+<li><a href="https://github.com/Pollenware/nools">Git Repo</a></li>
+<li><a href="/nools/">Documentation</a></li>
+</ul>
+
+
+<p>Nools is a rules engine for node based on the <a href="http://en.wikipedia.org/wiki/Rete_algorithm">rete</a> network.</p>
+
+<h4>Installation</h4>
+
+<pre><code>npm install nools
+</code></pre>
+
+<h2>gofigure</h2>
+
+<ul>
+<li><a href="https://github.com/Pollenware/gofigure">Git Repo</a></li>
+<li><a href="/gofigure">Documentation</a></li>
+</ul>
+
+
+<p>Gofigure is a configuration tool for node to help in the gathering and monitoring of configuration files in node.</p>
+
+<h4>Installation</h4>
+
+<pre><code>npm install gofigure
+</code></pre>
+
+<h2>hive</h2>
+
+<ul>
+<li><a href="https://github.com/Pollenware/hive">Git Repo</a></li>
+</ul>
+
+
+<p>hive is an In memory store for Node JS</p>
+
+<h4>Installation</h4>
+
+<pre><code>npm install hive
+</code></pre>
+
+<h2>c2fo-shell</h2>
+
+<ul>
+<li><a href="https://github.com/Pollenware/c2fo-shell">Git Repo</a></li>
+<li><a href="/c2fo-shell/">Documentation</a></li>
+</ul>
+
+
+<p>c2fo-shell - command line interface to Pollenware collaborative cash flow optimization platform</p>
+</body>
 </html>
