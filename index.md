@@ -1,8 +1,8 @@
-#Pollenware Projects
+#C2FO Projects
 
 ##comb
 
-* [Git Repo](https://github.com/Pollenware/comb)
+* [Git Repo](https://github.com/C2FO/comb)
 * [Documentation](/comb/index.html)
 
 Framework for node that provides a one stop shop for frequently needed utilities, including:
@@ -27,7 +27,7 @@ See Usage for more details.
     
 ##patio
 
-* [Git Repo](https://github.com/Pollenware/patio)
+* [Git Repo](https://github.com/C2FO/patio)
 * [Documentation](/patio/index.html)
 
 Patio is a [Sequel](http://sequel.rubyforge.org/" target="patioapi") inspired query engine and [ORM](http://en.wikipedia.org/wiki/Object-relational_mapping).
@@ -42,7 +42,7 @@ To use the patio executable for migrations
     npm install -g patio  
     
 ##nools
-* [Git Repo](https://github.com/Pollenware/nools)
+* [Git Repo](https://github.com/C2FO/nools)
 * [Documentation](/nools/)   
 
 Nools is a rules engine for node based on the [rete](http://en.wikipedia.org/wiki/Rete_algorithm) network.
@@ -52,7 +52,7 @@ Nools is a rules engine for node based on the [rete](http://en.wikipedia.org/wik
     npm install nools
     
 ##gofigure      
-* [Git Repo](https://github.com/Pollenware/gofigure)
+* [Git Repo](https://github.com/C2FO/gofigure)
 * [Documentation](/gofigure)
 
 Gofigure is a configuration tool for node to help in the gathering and monitoring of configuration files in node. 
@@ -63,7 +63,7 @@ Gofigure is a configuration tool for node to help in the gathering and monitorin
     
 
 ##hive
-* [Git Repo](https://github.com/Pollenware/hive)
+* [Git Repo](https://github.com/C2FO/hive)
 
 hive is an In memory store for Node JS
 
@@ -73,10 +73,10 @@ hive is an In memory store for Node JS
     
 ##c2fo-shell
 
-* [Git Repo](https://github.com/Pollenware/c2fo-shell)
+* [Git Repo](https://github.com/C2FO/c2fo-shell)
 * [Documentation](/c2fo-shell/)
 
-c2fo-shell - command line interface to Pollenware collaborative cash flow optimization platform
+c2fo-shell - command line interface to C2FO collaborative cash flow optimization platform
 
 
 
